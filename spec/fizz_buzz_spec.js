@@ -36,4 +36,17 @@ describe("FizzBuzz", function(){
             });
         });
     });
+    
+    describe("#generateReverse", function(){
+        describe("passing in 1,3", function(){
+            var results;
+            beforeEach(function(){
+               results = FizzBuzz.generateReverse(1,3); 
+            });
+            
+            it("returns ['Fizz', 2, 1]", function(){
+                expect(results).toEqual(['Fizz', 2, 1]);        
+            });
+        });
+    });
 });
