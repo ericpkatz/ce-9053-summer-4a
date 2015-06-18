@@ -1,0 +1,23 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "## You can run like this: * jasmine-node spec/ --autotest --verbose --color --watch*.js",
+  "main": "fizz-buzz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericpkatz/ce-9053-summer-4a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericpkatz/ce-9053-summer-4a/issues"
+  },
+  "homepage": "https://github.com/ericpkatz/ce-9053-summer-4a",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
