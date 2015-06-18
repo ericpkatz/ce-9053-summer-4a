@@ -1,4 +1,6 @@
-module.exports = Person;
+module.exports = function(firstName, lastName){
+    return new Person(firstName, lastName);   
+};
 
 function Person(firstName, lastName){
     this.firstName = firstName;

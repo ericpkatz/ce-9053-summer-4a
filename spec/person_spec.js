@@ -9,7 +9,7 @@ describe("Person", function(){
        describe("with a name of eric", function(){
            var person;
            beforeEach(function(){
-               person = new Person("Eric", "Katz");
+               person = Person("Eric", "Katz");
            });
            it("has a firstName of Eric", function(){
                expect(person.firstName).toEqual("Eric");
